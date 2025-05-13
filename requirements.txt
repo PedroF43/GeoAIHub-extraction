@@ -1,0 +1,14 @@
+# Core dependencies
+PyMuPDF
+openai
+python-dotenv
+requests
+pydantic
+tiktoken
+
+# Interface
+colorama
+tqdm
+
+# Authentication
+PyJWT

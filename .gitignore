@@ -1,0 +1,91 @@
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.pyc
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.db
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment directories
+.env
+.venv
+env/
+venv/
+ENV/
+.python-version
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.classpath
+.settings/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+coverage.xml
+*.cover
+
+# Keep directories but ignore their contents
+papers/*
+!papers/.gitkeep
+
+benchmark_papers/*
+!benchmark_papers/.gitkeep
+!benchmark_papers/papers/ # Keep the directory itself unignored
+benchmark_papers/papers/* # Ignore contents inside this directory
+!benchmark_papers/papers/.gitkeep # Keep the .gitkeep file inside this directory
+
+# Existing user ignores (adjust if needed)
+paper_storage/*
+.ruff_cache
+papers_professor
+*.ipynb
+scripts/locations/__pycache__/abstract_extractor.cpython-313.pyc
+# scripts/locations/__pycache__/abstract_extractor.cpython-313.pyc # Removed duplicate line
+resultados
+test_notebooks
+results.json
+# Removed duplicate rules for papers/*, !papers/.gitkeep, benchmark_papers/*, !benchmark_papers/.gitkeep
+Geoheritage_Papers
