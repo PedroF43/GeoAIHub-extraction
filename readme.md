@@ -62,7 +62,7 @@ https://geoaihub-back.dtx-colab.com/
 ## Usage
 
 The primary way to use this project is through the command-line interface.
-1. ** Register an account in the applications frontned and get approved by an admin.
+1.  **Register an account** in the applications frontned and get approved by an admin.
 2.  **Place PDF papers** you want to process into the `papers/` directory (create it if it doesn't exist).
 3.  **Run the interface:**
     ```bash
