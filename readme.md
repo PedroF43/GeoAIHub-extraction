@@ -62,13 +62,13 @@ https://geoaihub-back.dtx-colab.com/
 ## Usage
 
 The primary way to use this project is through the command-line interface.
-
-1.  **Place PDF papers** you want to process into the `papers/` directory (create it if it doesn't exist).
-2.  **Run the interface:**
+1. ** Register an account in the applications frontned and get approved by an admin.
+2.  **Place PDF papers** you want to process into the `papers/` directory (create it if it doesn't exist).
+3.  **Run the interface:**
     ```bash
     python interface.py
     ```
-3.  **Follow the on-screen menu:**
+4.  **Follow the on-screen menu:**
     - **Login:** You will be prompted to log in with credentials for the central repository.
     - **Process papers:** (Option 1) Extracts metadata and locations from PDFs in the `papers/` folder and saves them to the central repository.
     - **Geocoding menu:** (Option 2) Fetches locations marked for geocoding from the repository and attempts to geocode them.
