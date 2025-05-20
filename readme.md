@@ -2,17 +2,6 @@
 
 This project provides a suite of Python scripts designed to extract metadata and geographical locations from geological research papers in PDF format. It leverages Large Language Models (LLMs) for extraction tasks, offers geocoding capabilities, and includes a command-line interface (CLI) for interacting with a central data repository.
 
-## GeoAIHub frontend
-
-https://geoaihub.dtx-colab.com/
-
-!TODO add repo
-
-## GeoAIHub backend
-
-https://geoaihub-back.dtx-colab.com/
-
-!TODO add repo
 
 ## Features
 
